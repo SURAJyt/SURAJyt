@@ -1,4 +1,4 @@
-//3.Write a C++ program that demonstrate the call by reference to swap two numbers.rs.
+//3.Write a C++ program that demonstrate the call by reference to swap two numbers.
 #include <iostream>
 using namespace std;
 int main()
