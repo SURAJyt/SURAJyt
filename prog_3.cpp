@@ -1,0 +1,27 @@
+//3.Write a C++ program that demonstrate the call by reference to swap two numbers.rs.
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a, b;
+    cout << "\nEnter A :: ";
+    cin >> a;
+    cout << "\nEnter B :: ";
+    cin >> b;
+    cout << "\nBefore swap \n";
+    cout << "A = " << a << endl;
+    cout << "B = " << b << endl;
+    
+    swap(a, b);
+    cout << "\nAfter swap \n";
+    cout << "A = " << a << endl;
+    cout << "B = " << b << endl;
+    return 0;
+}
+int swap(int &a, int &b)
+{
+    int temp;
+    temp = a;
+    a = b;
+    b = temp;
+}
